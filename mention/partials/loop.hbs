@@ -1,0 +1,42 @@
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+
+{{^is 'paged'}}
+
+<article class="loopPost {{post_class}} {{#if @first}}latestPost{{/if}}">
+{{#if @first}}<p class="latestMark">Latest post</p>{{/if}}
+{{else}}
+<article class="loopPost {{post_class}}">
+{{/is}}
+        <h2 class="loopPost-title post-title"><a href="{{url}}">{{{title}}}</a></h2>
+{{#if image}}
+       <div class="postCover" style="background-image:url('{{image}}')">
+        <img class="invisibleImg" src="{{image}}">
+       </div>
+{{/if}}
+        <div class="postInfo">
+          <span>{{author autolink="false"}} |</span>
+          <span class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</span>
+          <span> | {{tags autolink="false"}} </span>
+        </div>
+
+<div class="postSharing">
+  <span>Share on:</span>
+  <a class="postShare fb" title="{{{title}}}" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="icon fa fa-facebook"></i></a>
+  <a class="postShare  twitter" title="{{{title}}}" target="_blank" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="icon fa fa-twitter"></i></a>
+  <a class="postShare  googleplus" title="{{{title}}}" target="_blank" href="https://plus.google.com/share?url={{url absolute="true"}}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="icon fa fa-google-plus"></i></a>
+</div>
+
+<div class="postExcerpt">
+<p>
+{{excerpt words="55"}} ...
+</p>
+<a class="readMore" title="{{title}}" href="{{url}}"><span>Continue reading </span><span>&#10142;</span></a>
+</div>
+</article>
+
+{{/foreach}}
+
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}
+

@@ -1,0 +1,63 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+
+
+<main class="mainContent" role="main">
+<article class="post {{post_class}}">
+<h1 class="postTitle" itemprop="headline">{{title}}</h1>
+      <div class="postInfo">
+      {{#author}}
+        <span>{{name}} |</span>
+      {{/author}}
+        <span class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}} |</span>
+        <span>reading time: <span class="eta"></span></span>
+      </div>
+      <div class="postCover" style="background-image:url('{{image}}')"></div>
+        <section class="post-content postContent">
+            {{content}}
+        </section>
+
+{{#next_post}}
+<section class="recentPost">
+  <p>Check the next post: <a href="{{url}}" rel="bookmark" title="{{title}}">{{title}}</a> »</p>
+</section>
+{{else}}
+{{/next_post}}
+
+<div class="postShare-wrap">
+<div class="postSharing">
+  <span>Share on:</span>
+  <a class="postShare fb" title="{{{title}}}" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="icon fa fa-facebook"></i></a>
+  <a class="postShare   twitter" title="{{{title}}}" target="_blank" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="icon fa fa-twitter"></i></a>
+  <a class="postShare   googleplus" title="{{{title}}}" target="_blank" href="https://plus.google.com/share?url={{url absolute="true"}}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="icon fa fa-google-plus"></i></a>
+</div>
+</div>
+
+</article>
+{{#author}}
+<section class="authorWrap">
+        <div class="authorInner">
+        {{#if image}}
+          <img alt='' src='{{image}}'>
+        {{/if}}
+        </div>
+        <div class="authorDesc">
+          <img alt='' src='{{image}}'>
+          <h4 class="author"><a href="{{url}}" title="{{name}}" rel="author">{{name}}</a></h4>
+          {{#if bio}}
+          <p class="authorInfo">{{bio}}
+          {{#if website}}<span> Say hey: <a href="{{website}}">{{website}}</a></span>{{/if}}
+          </p>
+          {{/if}}
+        </div>
+      </section>
+      {{/author}}
+</main>
+
+{{/post}}

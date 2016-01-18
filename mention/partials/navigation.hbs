@@ -1,0 +1,18 @@
+<nav role="navigation" class="homeNav nav">
+  <div class="navLinks-wrap">
+    <div class="navLinks">
+    		 <div class="onlyLinks">
+          		<li class="navLink navLink-hide" role="presentation">
+                <a href="www.vanila.io">Vanila.io</a>
+              </li>
+              {{#foreach navigation}}
+              <li class="navLink nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation">
+                <a href="{{url absolute="true"}}">{{label}}</a>
+              </li>
+              {{/foreach}}
+         </div>
+         <a class="footerBtn" href="#">Get free quote</a>
+    </div>
+  </div>
+</nav>
+

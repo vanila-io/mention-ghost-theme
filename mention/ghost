@@ -1,0 +1,57 @@
+server {
+    listen 80;
+    server_name www.vanila.io;
+
+    return 301 http://vanila.io$request_uri;
+}
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server ipv6only=on;
+
+    server_name vanila.io; # Replace with your domain
+
+    root /var/www;
+    index index.html index.htm;
+
+    client_max_body_size 10G;
+
+    rewrite ^/category  http://vanila.io permanent;
+    rewrite ^/link  http://vanila.io permanent;
+    rewrite ^/submit-link.php  http://vanila.io permanent;
+    rewrite ^/pending-list.php  http://vanila.io permanent;
+    rewrite ^/my-links.php  http://vanila.io permanent;
+    rewrite ^/most-visited.php  http://vanila.io permanent;
+    rewrite ^/top-rated.php  http://vanila.io permanent;
+    rewrite ^/contact.php  http://vanila.io permanent;
+    rewrite ^/my-links-images http://vanila.io permanent;
+    rewrite ^/index.php http://vanila.io permanent;
+    rewrite ^/cg-girls-3th-post-2.php http://vanila.io permanent;
+    rewrite ^/cg-girls-3th-post-3.php http://vanila.io permanent;
+    rewrite ^/cg-girls-3th-post.php http://vanila.io permanent;
+    rewrite ^/crystal-ball-3ds-max.php http://vanila.io permanent;
+    rewrite ^/cool-abstract-3ds-max.php http://vanila.io permanent;
+    rewrite ^/vray-wood-material-tutorial.php http://vanila.io permanent;
+
+
+location ^~ /files {
+        root /var/www;
+}
+       location /blog {
+        proxy_pass http://localhost:2368;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_buffering off;
+    }
+
+    location /mail {
+	proxy_pass http://localhost:3020;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header Host $http_host;
+	proxy_set_header X-Forwarded-Proto $scheme;
+	proxy_buffering off;
+    }
+
+}
+
