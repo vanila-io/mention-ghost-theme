@@ -48,13 +48,15 @@ function loadCSS( href, before, media ){
 }
 
 function loadFiles() {
-  loadJS('{{asset "js/index.js"}}');
   loadCSS('//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700');
   loadCSS('{{asset "css/font-awesome.css"}}')
 }
-    </script>
+</script>
+
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
+
+
 </head>
 <body class="{{body_class}} nav-closed grey lighten-5">
     <div class="blogWrapper">
@@ -98,7 +100,8 @@ function loadFiles() {
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    {{! The main JavaScript file }}
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    {{! The main JavaScript file for Casper }}
+    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 </body>
 </html>
