@@ -21,3 +21,6 @@ You can change the *tagline* and *button* text/link inside default.hbs file by e
 
 Link your social profiles in the icons at the bottom of the blog by editing [this code](https://github.com/vanila-io/mention-ghost-theme/blob/master/default.hbs#L90-L93) 
 
+---
+
+**Comments, critics and suggestions are welcome** :)
