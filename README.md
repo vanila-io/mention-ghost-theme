@@ -17,8 +17,10 @@ Peace. :)
 - Scroll indicator
 - Reading time
 - Fully responsive
-- Font Awesome social link icons
+- Social link icons in footer
 - Social media share buttons (Facebook, Twiter and Google plus)
+- [Roboto](https://www.google.com/fonts#UsePlace:use/Collection:Roboto) google font
+- Custom tagline and CTA button in header
 
 ###Demo
 
