@@ -22,11 +22,20 @@ Peace. :)
 - [Roboto](https://www.google.com/fonts#UsePlace:use/Collection:Roboto) google font
 - Custom tagline and CTA button in header
 
-###Demo
 
+###To do:
+- Google analytics
+- Disquss comments
+- Adding [Swift](swifticons.com) icons
+- Animations & Motion Graphics
+- Better menu for mobile devices
+
+###Demo
 You can check live version on my [blog](http://jelenajovanovic.im/blog/) .
 
-##Installing
+***Comments, critics and suggestions are welcome*** :) Feel free to open issue and we will disquss it.
+
+##Installation
 
 1. Download this theme, extract it and place it in your Ghost theme folder *(ghost/content/themes)*
 2. Restart Ghost
@@ -44,6 +53,9 @@ You can change the *tagline* and *button* text/link inside default.hbs file by e
 
 Link your social profiles in the icons at the bottom of the blog by editing [this code](https://github.com/vanila-io/mention-ghost-theme/blob/master/default.hbs#L90-L93) 
 
----
+##Copyright & License
+Released under the MIT License.
 
-***Comments, critics and suggestions are welcome*** :) Feel free to open issue and we will disquss it.
+Copyright (c) 2016 Vanila team
+Follow us on twiter: [@vanla_io](https://twitter.com/vanila_io)
+
