@@ -5,8 +5,8 @@
 
 ##Introduction
 
-Mention is clean and minimalistic theme with few nice features, like scroll indicator 
-and reading time. We got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
+**Mention** is clean and minimalistic theme with few nice features, **scroll indicator** 
+and **reading time**. We got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
 
 
 
@@ -28,7 +28,7 @@ and reading time. We got inspired with https://mention.com/blog/ and the guys fr
 - Better menu for mobile devices
 
 ###Demo
-You can check live version on my [blog](http://jelenajovanovic.im/blog/) .
+You can check live version on my [jelenajovanovic.im/blog](http://jelenajovanovic.im/blog/) .
 
 ***Comments, critics and suggestions are welcome*** :) Feel free to open issue and we will disquss it.
 
