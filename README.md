@@ -53,13 +53,15 @@ Link your social profiles in the icons at the bottom of the blog by editing [thi
 If you can leave that comment in footer that says it's `crafted by Vanila` (http://vanila.io), it 
 would mean a lot, cause it represents our work.
 
-Peace. :)
+Peace 
 
 ##Copyright & License
 Released under the MIT License.
 
 Copyright (c) 2016 Vanila team
-Follow us on twiter: 
+
+
+###Follow us on twiter: 
 
 [@jelenajjo](https://twitter.com/jelenajjo)
 [@shtefcs](https://twitter.com/shtefcs)
