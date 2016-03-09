@@ -3,13 +3,24 @@
 
 ##Introduction
 
-Mention is clean and minimalistic theme with two nice features, scroll indicator 
-and reading time. You can check live version on my [blog](http://jelenajovanovic.im/blog/) .Team Vanila got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
+Mention is clean and minimalistic theme with few nice features, like scroll indicator 
+and reading time. Team Vanila got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
 
-If you can leave that comment in footer that is crafted by Vanila (http://vanila.io), it 
+If you can leave that comment in footer that says it's crafted by Vanila (http://vanila.io), it 
 would mean a lot, cause it represents our work.
 
 Peace. :)
+
+###Features
+- Scroll indicator
+- Reading time
+- Fully responsive
+- Font Awesome social link icons
+- Social media share buttons (Facebook, Twiter and Google plus)
+
+###Demo
+
+You can check live version on my [blog](http://jelenajovanovic.im/blog/) .
 
 ##Installing
 
