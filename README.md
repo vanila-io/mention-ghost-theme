@@ -1,6 +1,8 @@
 # Mention theme for Ghost
 >Mention theme for Ghost blogging platform, inspired by https://mention.com/blog/
 
+![Mention theme for Ghost](http://magicmockups.com/media/capture/60/33060_jelenajovanovicimblo_13_1920.jpg)
+
 ##Introduction
 
 Mention is clean and minimalistic theme with few nice features, like scroll indicator 
