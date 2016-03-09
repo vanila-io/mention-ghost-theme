@@ -1,7 +1,15 @@
 # Mention theme for Ghost
 >Mention theme for Ghost blogging platform, inspired by https://mention.com/blog/
 
-[LIVE DEMO](http://vanila.io/blog/)
+##Introduction
+
+Mention is clean and minimalistic theme with two nice features, scroll indicator 
+and reading time. You can check live version on my [blog](http://jelenajovanovic.im/blog/) .Team Vanila got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
+
+If you can leave that comment in footer that is crafted by Vanila (http://vanila.io), it 
+would mean a lot, cause it represents our work.
+
+Peace. :)
 
 ##Installing
 
@@ -23,4 +31,4 @@ Link your social profiles in the icons at the bottom of the blog by editing [thi
 
 ---
 
-**Comments, critics and suggestions are welcome** :)
+***Comments, critics and suggestions are welcome*** :) Feel free to open issue and we will disquss it.
