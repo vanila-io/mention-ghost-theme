@@ -55,15 +55,15 @@ would mean a lot, cause it represents our work.
 
 Peace 
 
-##Copyright & License
-Released under the MIT License.
 
-Copyright (c) 2016 Vanila team
-
-
-###Follow us on twiter: 
+###You can find us on twiter: 
 
 [@jelenajjo](https://twitter.com/jelenajjo)
 [@shtefcs](https://twitter.com/shtefcs)
 [@vanila_io](https://twitter.com/vanila_io)
 
+
+##Copyright & License
+Released under the MIT License.
+
+Copyright (c) 2016 Vanila team
