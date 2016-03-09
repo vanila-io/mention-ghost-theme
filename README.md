@@ -1,5 +1,5 @@
-# mention-ghost-theme
-Mention theme for Ghost blogging platform, inspired by https://mention.com/blog/
+# Mention theme for Ghost
+>Mention theme for Ghost blogging platform, inspired by https://mention.com/blog/
 
 [LIVE DEMO](http://vanila.io/blog/)
 
