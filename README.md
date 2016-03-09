@@ -6,12 +6,9 @@
 ##Introduction
 
 Mention is clean and minimalistic theme with few nice features, like scroll indicator 
-and reading time. Team Vanila got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
+and reading time. We got inspired with https://mention.com/blog/ and the guys from Mention give as green light, to go and craft Ghost theme.
 
-If you can leave that comment in footer that says it's crafted by Vanila (http://vanila.io), it 
-would mean a lot, cause it represents our work.
 
-Peace. :)
 
 ###Features
 - Scroll indicator
@@ -53,9 +50,18 @@ You can change the *tagline* and *button* text/link inside default.hbs file by e
 
 Link your social profiles in the icons at the bottom of the blog by editing [this code](https://github.com/vanila-io/mention-ghost-theme/blob/master/default.hbs#L90-L93) 
 
+If you can leave that comment in footer that says it's `crafted by Vanila` (http://vanila.io), it 
+would mean a lot, cause it represents our work.
+
+Peace. :)
+
 ##Copyright & License
 Released under the MIT License.
 
 Copyright (c) 2016 Vanila team
-Follow us on twiter: [@vanla_io](https://twitter.com/vanila_io)
+Follow us on twiter: 
+
+[@jelenajjo](https://twitter.com/jelenajjo)
+[@shtefcs](https://twitter.com/shtefcs)
+[@vanila_io](https://twitter.com/vanila_io)
 
