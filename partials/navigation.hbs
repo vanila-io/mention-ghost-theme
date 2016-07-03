@@ -1,13 +1,13 @@
 <nav role="navigation" class="homeNav nav">
   <div class="navLinks-wrap">
     <div class="navLinks">
-    		 <div class="onlyLinks">
+    		 <ul class="onlyLinks">
               {{#foreach navigation}}
               <li class="navLink nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation">
                 <a href="{{url absolute="true"}}">{{label}}</a>
               </li>
               {{/foreach}}
-         </div>
+         </ul>
          <a class="footerBtn" href="#">Get free quote</a>
     </div>
   </div>

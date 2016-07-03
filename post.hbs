@@ -12,9 +12,7 @@
 <article class="post {{post_class}}">
 <h1 class="postTitle" itemprop="headline">{{title}}</h1>
       <div class="postInfo">
-      {{#author}}
-        <span>{{name}} |</span>
-      {{/author}}
+        <span>{{author}} |</span>
         <span class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}} |</span>
         <span>reading time: <span class="eta"></span></span>
       </div>
@@ -44,11 +42,11 @@
 <section class="authorWrap">
         <div class="authorInner">
         {{#if image}}
-          <img alt='' src='{{image}}'>
+          <img alt='{{name}}' src='{{image}}'>
         {{/if}}
         </div>
         <div class="authorDesc">
-          <img alt='' src='{{image}}'>
+          <img alt='{{name}}' src='{{image}}'>
           <h4 class="author"><a href="{{url}}" title="{{name}}" rel="author">{{name}}</a></h4>
           {{#if bio}}
           <p class="authorInfo">{{bio}}
@@ -58,6 +56,10 @@
         </div>
       </section>
       {{/author}}
+
+<!-- HERE GOES YOUR DISQUSS CODE -->
+
+<!-- HERE GOES YOUR DISQUSS CODE -->
 </main>
 
 {{/post}}
