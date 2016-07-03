@@ -49,7 +49,7 @@ You can change the *tagline* and *button* text/link inside default.hbs file by e
 
 ###Footer
 
-Link your social profiles in the icons at the bottom of the blog by editing [this code](https://github.com/vanila-io/mention-ghost-theme/blob/master/default.hbs#L90-L93) 
+Link your social profiles in the icons at the bottom of the blog by editing [this code](https://github.com/vanila-io/mention-ghost-theme/blob/master/default.hbs#L91-L94) 
 
 If you can leave that comment in footer that says it's `crafted by Vanila` (http://vanila.io), it 
 would mean a lot, cause it represents our work.
