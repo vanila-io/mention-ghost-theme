@@ -1,7 +1,7 @@
 # Mention theme for Ghost
 >Mention theme for Ghost blogging platform, inspired by https://mention.com/blog/
 
-![Mention theme for Ghost](http://magicmockups.com/media/capture/99/49899_jelenajovanovicimblo_28_960.jpg)
+![Mention theme for Ghost](https://vanila.io/img/mention-ghost.jpg)
                                                                             Screenshot made with http://magicmockups.com
 
 ##Introduction
