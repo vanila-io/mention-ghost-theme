@@ -29,7 +29,7 @@ and **reading time**. We got inspired with https://mention.com/blog/ and the guy
 - Better menu for mobile devices
 
 ###Demo
-You can check live version on my blog [jelenajovanovic.im/blog](http://jelenajovanovic.im/blog/) .
+You can check live version on my blog [vanila.io/blog](https://vanila.io/blog) .
 
 ***Comments, critics and suggestions are welcome*** :) Feel free to open issue and we will disquss it.
 
