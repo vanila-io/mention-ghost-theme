@@ -16,7 +16,7 @@
         <span class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}} |</span>
         <span>reading time: <span class="eta"></span></span>
       </div>
-      <div class="postCover" style="background-image:url('{{image}}')"></div>
+      <div class="postCover" style="background-image:url('{{img_url feature_image}}')"></div>
         <section class="post-content postContent">
             {{content}}
         </section>
@@ -41,12 +41,12 @@
 {{#author}}
 <section class="authorWrap">
         <div class="authorInner">
-        {{#if image}}
-          <img alt='{{name}}' src='{{image}}'>
+        {{#if profile_image}}
+          <img alt='{{name}}' src='{{img_url profile_image}}'>
         {{/if}}
         </div>
         <div class="authorDesc">
-          <img alt='{{name}}' src='{{image}}'>
+          <img alt='{{name}}' src='{{img_url profile_image}}'>
           <h4 class="author"><a href="{{url}}" title="{{name}}" rel="author">{{name}}</a></h4>
           {{#if bio}}
           <p class="authorInfo">{{bio}}
