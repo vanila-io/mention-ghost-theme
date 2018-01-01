@@ -9,9 +9,9 @@
 <article class="loopPost {{post_class}}">
 {{/is}}
         <h2 class="loopPost-title post-title"><a href="{{url}}">{{{title}}}</a></h2>
-{{#if image}}
-       <div class="postCover" style="background-image:url('{{image}}')">
-        <img class="invisibleImg" src="{{image}}">
+{{#if feature_image}}
+       <div class="postCover" style="background-image:url('{{img_url feature_image}}')">
+        <img class="invisibleImg" src="{{img_url feature_image}}">
        </div>
 {{/if}}
         <div class="postInfo">

@@ -3,8 +3,8 @@
 
 {{! If we have a tag cover, display that - else blog cover - else nothing }}
 
-<section class="heading tag-head {{#if tag.image}}" style="background-image: url({{tag.image}}){{else}}{{#if @blog.cover}} style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}{{/if}}">
-  <div class="headingSub {{#if tag.image}}" style="background-color: rgba(255,255,255,0.5);{{/if}}">
+<section class="heading tag-head {{#if tag.feature_image}}" style="background-image: url({{tag.feature_image}}){{else}}{{#if @blog.cover_image}} style="background-image: url({{@blog.cover_image}}){{else}}no-cover{{/if}}{{/if}}">
+  <div class="headingSub {{#if tag.feature_image}}" style="background-color: rgba(255,255,255,0.5);{{/if}}">
     <h1 class="headingTitle">{{tag.name}}<br></h1>
     {{#if tag.description}}
         {{tag.description}}
