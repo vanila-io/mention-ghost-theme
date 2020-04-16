@@ -1,8 +1,7 @@
 # Mention theme for Ghost
 >Mention theme for Ghost blogging platform, inspired by https://mention.com/blog/
 
-![Mention theme for Ghost](https://vanila.io/img/mention-ghost.jpg)
-                                                                            Screenshot made with http://magicmockups.com
+![Mention theme for Ghost by Vanila.io](https://i.imgur.com/Z3ywtpR.png)
 
 ##Introduction
 
@@ -35,9 +34,10 @@ You can check live version on my blog [vanila.io/blog](https://vanila.io/blog) .
 
 ##Installation
 
-1. Download this theme, extract it and place it in your Ghost theme folder *(ghost/content/themes)*
-2. Restart Ghost
-3. Login to your admin dashboard, go to settings and choose this theme from the theme dropdown
+1. Download this theme
+2. Login to your admin dashboard, go to settings and upload this theme zip file ![Mention theme for Ghost by Vanila.io - installation process](https://i.imgur.com/ltXh2rq.png)
+3. Click the save button at top right and that's that.
+
 
 ##Customization
 
@@ -59,7 +59,7 @@ Peace
 
 ###You can find us on twiter: 
 
-[@jelenajjo](https://twitter.com/jelenajjo)
+[@jelenajjo](https://twitter.com/plavookac)
 [@shtefcs](https://twitter.com/shtefcs)
 [@vanila_io](https://twitter.com/vanila_io)
 
